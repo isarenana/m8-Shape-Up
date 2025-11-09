@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    box-shadow: 0 0 20px black;
+    padding-left: 10px;
+   height: 100%;
+    width: 100%;
+    
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+
+}
+
+.container{
+    display: flex;
+   align-items: center;
+}
+   
+
+main #item3{
+   
+}
+
+header{
+    background: linear-gradient(to top, steelblue, white);
+    text-align: left;
+    border : 2px solid steelblue;
+    padding: 10px;
+    height: 150px;
+    
+}
+h1{
+    color :blue;
+    font-size: clamp(2rem, 5vw, 4rem)
+    font-family : sans-serif;
+    font-weight : bold;
+}
+h2{
+    color :black;
+    font-family : sans-serif;
+    font-weight : bold;
+    text-align: left;
+    font-size: clamp(20px, 5vw, 25px)
+
+}
+#h2a {
+    color: steelblue;
+    font-style: italic;
+    text-align: left;
+}
+#h2z {
+   
+}
+#h2c{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#h2r {
+    padding-left: 1px;;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    
+}
+h3{
+    color :maroon;
+    font-family : sans-serif;
+    font-weight : bold;
+}
+#h3a{
+    padding-top: 1em;
+}
+#h3b{
+    padding-top: 1em;
+}
+#h3c{
+    padding-top: 1em;
+}
+p{
+    color :black;
+    font-family : sans-serif;
+    margin-top: 0;
+    margin-bottom: 5;
+}
+#p1{
+    padding-bottom: 1em;
+}
+aside{
+    border: 2px solid steelblue;
+    border-radius: 10px 20px;
+    text-align: center -80px;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    border-width: 4px;
+    padding-left: 2em;
+    padding-right: 12em;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 2em;
+    margin-right: 2em;
+   
+}
+
+ul li a:link{
+    color: steelblue;
+}
+ul li a:hover{
+    color: black;
+}
+footer{
+    font-size: small;
+    text-align: center;
+    background-color: steelblue;
+    width: 100%;
+    height: 50px;
+    padding-top: 1.5em;
+}
+footer p{
+    color: white;
+}
+#pf{
+    color :white;
+    font-family : sans-serif;
+    font-weight : bold;
+}
+#img1{
+    float: left;
+    margin-left: 10px;
+    max-width: 120px;
+  min-width: 100px;
+  width: 100%;
+  height: auto;
+}     
+a:link{
+    color: maroon;
+}
+a:hover{
+    color: maroon;
+}
+a:focus{
+    color: maroon;
+}
+.link-style{
+    color  : maroon;
+}
+ .link-style:hover{
+    color  : steelblue;
+ }
+ .link-style:focus{
+    color  : steelblue;
+ }
+
+ 
+ .navbars {
+    height: 4rem;
+    background-color: steelblue; 
+    margin-bottom: 10rem; 
+   
+}
+
+.navbars  ul {
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 0.5rem;
+    margin: 0;
+
+}
+
+.navbars  ul li {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    width: fit-content;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0 1rem;
+    
+    margin: 4px 0;
+}
+
+.navbars  ul li:hover ul {
+    opacity: 1; 
+    display: block;
+}
+
+.navbars  ul li ul {
+    height: max-content; /* Allows the dropdown to grow with content */
+    width: 10rem;
+    opacity: 0; /* Hidden by default */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -30px; /* Offsets dropdown */
+    top: 13px;
+    
+}
+
+
+.navbars  ul li ul li {
+    background-color: steelblue;
+    width: 12rem;
+    padding: 1rem 0;
+   
+}
+
+.navbars  ul li ul li:hover {
+    background-color: steelblue;
+}
+
+.navbars  ul li a {
+    width: 100%;
+    list-style: none;
+    color: white;
+    padding: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.active{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#checkbox-toggle{
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 600px) {}
+ #checkbox-toggle{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ }
+.navbars ul  {
+        display: none; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding-top: 4rem; 
+        background-color: steelblue;
+        width: 15rem;
+    }
+
+.menu-btn{
+    display: block;
+    position: relative;
+
+}
+
+.menu-btn::after{
+    content: "\2630"; 
+    font-size: 2rem;
+    color: white;
+}
+
+#checkbox-toggle:checked + .menu-btn + .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4rem;
+}
+
+#checkbox-toggle:checked + .menu-btn::after{
+    content: "\2715"; 
+    font-size: 2rem;
+    color: white;
+}
+
+#checkbox-toggle{
+    display: none;
+}
+
+ /* hides .dropdown */
+.navbars  ul li ul {
+    display: none; 
+    flex-direction: column;
+    
+
+}
+
+.navbars{
+    position: relative;
+}
+
+.navbars  ul li:hover ul {
+    display: flex;
+   position: static;
+   float: right;
+   
+}
+   
+
+  
+}

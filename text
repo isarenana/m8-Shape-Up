@@ -1,0 +1,14 @@
+<script>start("/Users/z/Downloads/shape_up_exercises 3/text/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("bmi.txt","bmi.txt",0,579,"579 B",1519433856,"2/23/18, 4:57:36 PM");</script>
+<script>addRow("calories.txt","calories.txt",0,760,"760 B",1734036902,"12/12/24, 12:55:02 PM");</script>
+<script>addRow("diet.txt","diet.txt",0,1474,"1.4 kB",1519434126,"2/23/18, 5:02:06 PM");</script>
+<script>addRow("home.txt","home.txt",0,2018,"2.0 kB",1733183380,"12/2/24, 3:49:40 PM");</script>
+<script>addRow("meals.txt","meals.txt",0,826,"826 B",1734120784,"12/13/24, 12:13:04 PM");</script>
+<script>addRow("meditate.txt","meditate.txt",0,566,"566 B",1734040792,"12/12/24, 1:59:52 PM");</script>
+<script>addRow("menus.txt","menus.txt",0,240,"240 B",1733180928,"12/2/24, 3:08:48 PM");</script>
+<script>addRow("prepare.txt","prepare.txt",0,887,"887 B",1518736748,"2/15/18, 3:19:08 PM");</script>
+<script>addRow("strength.txt","strength.txt",0,1362,"1.3 kB",1733957646,"12/11/24, 2:54:06 PM");</script>
+<script>addRow("stress_relief.txt","stress_relief.txt",0,913,"913 B",1519761192,"2/27/18, 11:53:12 AM");</script>
+<script>addRow("stress_tips.txt","stress_tips.txt",0,1560,"1.5 kB",1519343610,"2/22/18, 3:53:30 PM");</script>
+<script>addRow("vipassana.txt","vipassana.txt",0,2554,"2.5 kB",1519252648,"2/21/18, 2:37:28 PM");</script>
