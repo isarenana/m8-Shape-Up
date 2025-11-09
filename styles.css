@@ -239,8 +239,8 @@ a:focus{
 
 
 
-@media (max-width: 600px) {}
- #checkbox-toggle{
+@media (max-width: 600px) {
+    #checkbox-toggle{
     display: block;
     position: absolute;
     top: 20px;
@@ -302,7 +302,6 @@ a:focus{
    float: right;
    
 }
-   
-
-  
 }
+ 
+  
